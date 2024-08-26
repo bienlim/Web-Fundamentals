@@ -1,0 +1,322 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    max-width: 1200px;
+    margin: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+} 
+
+a{
+    text-decoration: none;
+}
+
+header{
+    background-color: rgb(19, 25, 33);
+    font-size: 14px;
+
+}
+
+    header img, header div, header a{
+        color: white;
+    }
+    header img{
+        height: 40px;
+    }
+    .headerText{
+        color: rgb(204 , 204, 204)
+    } 
+    .headerBold{
+        font-weight: 650;
+    }
+    header div#searchBar{
+        border-radius: 4px;
+        background-color: white;
+    }
+        header div#searchBar a{
+            background-color: rgb(243, 243, 243);
+            color: rgb(85, 85, 85);
+            font-size: 12px;
+            border-radius: 4px 0px 0px 4px; 
+            border-right: 1px solid rgb(85, 85, 85);
+        }
+        header div#searchBar input{
+            vertical-align: top;
+            height: 40px;
+            display: inline-block;
+            border: none;
+        }
+
+nav{
+    background-color: rgb(35, 47, 62);
+    height: 2.5rem;
+    color: white;
+
+}
+    nav a{
+        color: white;
+        line-height: 2.5rem;
+        padding: 0px 6px;
+    }
+    .navEnd{
+        display: inline-block;
+    }
+section{
+    background-image: linear-gradient(
+        to top,
+        rgb(234, 237, 237) 0%,
+        rgb(234, 237, 237) 65%,
+        rgb(234, 237, 237, 0) 85%,
+        rgb(234, 237, 237, 0)),
+        url("img/bg-body-lunarny.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 10px;
+    padding-top: 210px;
+    margin-bottom: 20px;
+}
+    div.product{
+
+        background-color: white;
+        padding: 15px;
+        margin: 30px 10px;
+        width: 270px;
+        height: 330px;
+        vertical-align: top;
+
+    }
+        div.product h1{
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+        div.product img{
+            text-align: top;
+            vertical-align: top;
+            width: 240px;
+            height: 250px;
+            object-fit: contain;
+        }
+        div.product a{
+            font-size: 10px;
+        }
+        .img_offset{
+            position: relative;
+            top: -25px
+        }
+    footer{
+        background-color: rgb(19, 26, 34);
+        color: rgb(221, 221, 221);
+        text-align: center;
+        font-size: 10px;
+    }
+        footer a{
+            color: rgb(221, 221, 221);
+        }  
+
+
+@media only screen and (min-width: 481px){
+    body{
+        min-width: 950px;
+        width: 100%;
+    }
+    header{
+        width: 100%;
+        display: inline-block;
+        min-width: 950px;
+        padding: 10px;
+        margin: auto;
+        height: 150px;
+        background-color: rgb(35, 47, 62);
+    }
+        header img, header a{
+            display: inline-block;
+            margin: auto;
+            max-height: 50px;
+        }
+        header #searchbar{
+            min-width: 950px;
+            height: 150px;
+            border-radius: 8px 8px 4px 8px;
+        }
+        header div#searchBar input{
+            width: 835px;
+            height: 42px;
+            border-radius: 8px 8px 4px 8px;
+        }
+        header div#searchBar img{
+
+            height: 42px;
+            border-radius: 8px 8px 4px 8px;
+        }
+        header a#cart{
+        position: absolute;
+        top: 0;
+        }
+
+        div.product{
+            display: inline-block;
+        }
+    section{
+        min-width: 950px;
+    }
+    header a.mobile{
+        height: 2.5rem;
+        color: white;
+        padding: 16px;
+
+    }
+
+    .desktop{
+        display: none;
+    }
+    nav{
+        display: none;
+    }
+        
+}
+
+
+@media only screen and  (min-width: 1024px){
+
+    body{
+        min-width: 1200px;
+    } 
+    header{
+        margin: auto;
+        height: 60px;
+        background-color: rgb(19, 25, 33);
+        padding: 8px;
+        font-size: 14px;
+        
+
+    }
+
+        header img, header div, header a.head, header img.cart{
+            display: inline-block;
+            margin: auto;
+            max-height: 50px;
+            color: white;
+            margin: 0px 5px;
+            vertical-align: middle;
+        }
+        header img{
+            height: 40px;
+        }
+
+        .headerText{
+            color: rgb(204 , 204, 204)
+        } 
+        .headerBold{
+            font-weight: 650;
+        }
+
+        header div#searchBar{
+            width: 630px;
+            height: 40px;
+            border-radius: 4px;
+            background-color: white;
+        }
+            header div#searchBar a{
+                background-color: rgb(243, 243, 243);
+                color: rgb(85, 85, 85);
+                display: inline-block;
+                height: 40px;
+                vertical-align: top;
+                line-height: 40px;
+                font-size: 12px;
+                padding: 0px 8px;
+                border-radius: 4px 0px 0px 4px; 
+                border-right: 1px solid rgb(85, 85, 85);
+            }
+            header div#searchBar input{
+                width: 515px;
+                height: 40px;
+                vertical-align: top;
+                display: inline-block;
+                border: none;
+            }
+            header div#searchBar img{
+                position: relative;
+                left: 15px;
+                top: 0px;
+                border-radius: 0px 4px 4px 0px;
+            }
+
+    nav{
+        display: block;
+        background-color: rgb(35, 47, 62);
+        height: 2.5rem;
+        color: white;
+        padding-left: 16px;
+
+    }
+        nav a.nav{
+            display: inline-block;
+        }
+        .navEnd{
+            display: inline-block;
+            margin-left: 440px;
+        }
+    section{
+        background-image: linear-gradient(
+            to top,
+            rgb(234, 237, 237) 0%,
+            rgb(234, 237, 237) 65%,
+            rgb(234, 237, 237, 0) 85%,
+            rgb(234, 237, 237, 0)),
+            url("img/bg-body-lunarny.jpg");
+        width: 1200px;
+        height: 1050px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        padding: 10px;
+        padding-top: 210px;
+        margin-bottom: 20px;
+    }
+        div.product{
+            display: inline-block;
+            background-color: white;
+            padding: 15px;
+            margin: 30px 10px;
+            width: 270px;
+            height: 330px;
+            vertical-align: top;
+
+        }
+            div.product h1{
+                font-size: 18px;
+                margin-bottom: 10px;
+            }
+            div.product img{
+                text-align: top;
+                vertical-align: top;
+                width: 240px;
+                height: 250px;
+                object-fit: contain;
+            }
+            div.product a{
+                font-size: 10px;
+            }
+            .img_offset{
+                position: relative;
+                top: -25px
+            }
+        footer{
+            height: 100px;
+            background-color: rgb(19, 26, 34);
+            color: rgb(221, 221, 221);
+            text-align: center;
+            padding: 10px;
+            font-size: 10px;
+        }
+            footer a{
+                color: rgb(221, 221, 221);
+                margin: 5px 10px;
+            }  
+        .mobile{
+            display: none;
+        }
+}

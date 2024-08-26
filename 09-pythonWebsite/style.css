@@ -1,0 +1,206 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    outline: 0px dotted red;
+    font-family: sans-serif;
+    font-size: 12px;
+}
+
+body{
+    background-color: rgb(43, 90, 130);
+    width: 970px;
+    margin: auto;
+    padding: 15px;
+    background: linear-gradient(
+    to bottom,
+    rgb(43, 90, 130) 0px,
+    rgb(43, 90, 130) 335px,
+    white 335px,
+    white 550px,
+    rgb(43, 90, 130) 550px,
+    rgb(43, 90, 130) 20000px
+    );
+}
+    header{
+        height: 40px;
+        display: inline-block;
+    
+    }
+
+        header img{
+            display: inline-block;
+            width: 180px;
+        }
+
+        header a.donate{
+            border: 1px solid rgb(255, 214, 80);
+            border-radius:2px;
+            padding: 3px 13px;
+            color: rgb(132, 128, 94);
+            background-image:linear-gradient(rgb(255, 214, 80),rgb(245, 214, 80));
+            margin: 12px 5px 1000px 300px;
+            text-decoration: none;
+            vertical-align: top;
+            display: inline-block;
+
+        }
+        header div{
+            display: inline-block;
+            border: 1px solid rgb(30, 41, 51);
+            border-radius:4px;
+            padding: 0px 0px 0px 13px;
+            color: rgb(132, 128, 94);
+            background-color: rgb(30, 41, 51);
+            vertical-align: top;
+        }
+            header div input{
+                margin: 8px;
+                height: 28px;
+            }    
+            header div a.search{
+      
+                border-radius:2px;
+                padding: 6px 6px;
+                color: white;
+                background-image:linear-gradient( rgb(53, 114, 165),rgb(43, 92, 133));
+                margin-right: 5px;
+            }
+            header div a.socialize{
+                color: lightgray;
+                padding: 15px;
+                border-left: 1px solid black;
+                font-size: 10px;
+            }
+
+    nav {
+        width: 860px;
+        border: 1px solid rgb(46, 98, 142);
+        border-radius:8px;
+        padding: 0px 100px;
+        color: white;
+        background-image:linear-gradient( rgb(55, 118, 171),rgb(46, 98, 142));
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+        nav ul li{
+            text-decoration: none;
+            display: inline-block;
+            padding: 15px 17px;
+            border-right: 1px solid rgb(87, 87, 87);
+        }
+        nav ul li#borderleft{
+            border-left: 1px solid rgb(87, 87, 87);
+        }
+    section.highlight{
+        padding: 30px 80px;
+        height: 220px;
+        outline: 0px dotted red;
+    }
+        section.highlight h3{
+            font-size: 20px;
+            color: yellow;
+            display: inline-block;
+        }
+        section.highlight p{
+            margin-top: 10px;
+            width: 300px;
+            font-size: 11px;
+            color: lightgray;
+            line-height: 18px;
+        }
+        section.highlight img{
+            display: inline-block;
+            position: relative;
+            top: -30px;
+            left: 10px;
+            width: 400px;
+            vertical-align: top;
+            outline: 0px dotted red;
+        }
+    
+    section.listing{
+        height: 230px;
+        padding: 10px 0px;
+
+    
+    }
+        section.listing .news{
+            display: inline-block;
+            width: 415px;
+            outline: 0px dotted red;
+            margin-right: 5px;
+            
+        }
+            section.listing table{ 
+                width:390px;
+                padding-left: 10px;
+            }
+                section.listing .news table tr td{
+                    
+                    font-size: 11px;
+                    height: 24px;
+                    border-top: 1px solid rgb(224, 225, 226);
+                }
+                    section.listing .news table tr td.date{
+                        margin-right: 15px;
+                    }
+                    section.listing .news table tr td.title{
+                        font-size: 9px;
+                        color: rgb(53, 114, 165);
+                    }
+
+        section.listing .use{
+            
+            display: inline-block;
+            width: 415px;
+            outline: 0px dotted red;
+        }
+            section.listing .use table tr td{
+                font-size: 11px;
+                height: 24px;
+                border-top: 1px solid rgb(224, 225, 226);
+                font-weight: 750;
+            }
+                        
+            section.listing .use table tr td a{
+                font-weight: 250;
+                font-size: 8px;
+                border: 1px solid rgb(229, 231, 233);
+                border-radius: 2px;
+                padding: 2px;
+                background-color: rgb(229, 231, 233);
+            }
+        section.listing h5{
+            font-weight: 250;
+            font-size: 16px;
+            font-family: 'Arial Narrow', Arial, sans-serif;
+            border-top: 2px solid rgb(107, 162, 208);
+            padding: 10px 10px;
+        }
+            section.listing h5 a{
+                font-weight: 250;
+                font-size: 10px;
+                font-family: 'Arial Narrow', Arial, sans-serif;
+                padding: 10px 10px;
+                margin-left: 230px;
+            }
+    footer{
+        margin: auto;
+        vertical-align: top;
+        text-align: center;
+        color: rgb(137, 180, 217);
+    }
+        footer ul li{
+            display: inline-block;
+        }
+        footer ul.footMenu a{  
+            font-size: 12px;
+            font-stretch: wider;
+            margin-left: 15px;
+        }
+        footer ul.footNote a{
+            padding-top: 20px;
+            font-size: 7px;
+        }
+
+    

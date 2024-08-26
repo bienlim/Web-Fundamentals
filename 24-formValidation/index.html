@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <script>
+        //return false doesnt allow the page to be redirected to a different page.
+        //.submit() works in two ways: listener, hard
+        //.serialize() prepares the form input
+        $( function() {
+                $( "#datepicker" ).datepicker();
+                $('button').click(function(){
+                    if(!($('#firstname').val())){
+                        alert("First Name can't be blank");
+                    } else if (!($('#lastname').val())){
+                        alert("Last Name can't be blank");
+                    } else if (!($('#datepicker').val())){
+                        alert("Date can't be blank");
+                    } else {
+                      alert("Success, "+$('#firstname').val()+" "+$('#lastname').val()+"! Your vaccination is reserved on "+ $('#datepicker').val() )
+                    }
+                    return false
+                })
+        } );
+    </script>
+</head>
+<body>
+        <header>Scheduling Form for Vacciniation</header>
+        <p>First Name:<input type="text" id="firstname"></p>
+        <p>Last name<input type="text" id="lastname"></p>
+        <p>Date: <input type="text" id="datepicker"></p>
+        <button>Submit</button>
+
+</body>
+</html>

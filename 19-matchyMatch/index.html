@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matchy Match</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        $(document).ready( function(){
+            $('img').click(function() {
+                var main_img = $(this).attr('src');
+                var sec_img = $(this).attr('data-alt-src');
+                $(this).attr('src', sec_img);
+                $(this).attr('data-alt-src', main_img)
+                });  
+        })
+    </script>
+</head>
+<body>
+    <header><h1>Matchy Match</h1></header>
+    <div class="container">
+        <div class="col">
+            <img class="block" src="img/qmark.png" data-alt-src="img/yellow_candy.png"></img>
+            <img class="block" src="img/qmark.png" data-alt-src="img/orange_candy.png"></img>
+            <img class="block" src="img/qmark.png" data-alt-src="img/red_candy.png"></img>
+            <img class="block" src="img/qmark.png" data-alt-src="img/multicolor_candy.png"></img>
+        </div>
+        <div class="col">
+            <img class="block" src="img/qmark.png" data-alt-src="img/red_candy.png"></img>
+            <img class="block" src="img/qmark.png" data-alt-src="img/multicolor_candy.png"></img>
+            <img class="block" src="img/qmark.png" data-alt-src="img/yellow_candy.png"></img>
+            <img class="block" src="img/qmark.png" data-alt-src="img/orange_candy.png"></img>
+        </div>
+        <div class="col">
+            <img class="block" src="img/qmark.png" data-alt-src="img/yellow_candy.png"></img>
+            <img class="block" src="img/qmark.png" data-alt-src="img/orange_candy.png"></img>
+            <img class="block" src="img/qmark.png" data-alt-src="img/red_candy.png"></img>
+            <img class="block" src="img/qmark.png" data-alt-src="img/multicolor_candy.png"></img>
+        </div>
+        <div class="col">
+            <img class="block" src="img/qmark.png" data-alt-src="img/orange_candy.png"></img>
+            <img class="block" src="img/qmark.png" data-alt-src="img/yellow_candy.png"></img>
+            <img class="block" src="img/qmark.png" data-alt-src="img/multicolor_candy.png"></img>
+            <img class="block" src="img/qmark.png" data-alt-src="img/red_candy.png"></img>
+        </div>
+
+    </div>
+</body>
+</html>

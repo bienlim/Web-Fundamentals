@@ -1,0 +1,125 @@
+body{
+    max-width: 2000px;
+    margin: auto;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+h1#head{ 
+    display: block;
+    text-align: center;
+    width:1480px; 
+    height: 80px;
+    padding-top: 20px;
+    padding-left: 100px;
+    margin: auto;
+}
+.draggable { 
+    width: 220px; 
+    height: auto; 
+    padding: 0.5em; 
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px;
+
+}
+.yellow {
+    background-color: yellow;
+}
+.lightblue{
+    background-color: lightskyblue;
+}
+.lightpink{
+    background-color: lightpink;
+}
+
+.container-board {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:1480px; 
+    height: 1000px; 
+    padding: 30px;
+    background-color: rgb(246, 252, 255);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+H3{
+    display: inline-block; 
+    padding: 1rem 2rem; 
+    margin: 2% 5%;
+}
+
+h4{
+    display: block;
+    margin: 0;
+    padding: 1rem;
+    text-align: center;
+    font-size: 28px;
+    outline: 0px solid black;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    background-color: rgb(247, 247, 247);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 20px -20px;
+}
+h5{
+    margin: 0;
+    font-size: 20px;
+}
+button#newNote{
+    background-color: White;
+    border-radius: 5px;
+    display: block;
+    font-size: 22px;
+    margin: 1rem 2rem;
+    float: right;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px;
+
+}
+div.container-col {
+    display: inline-block;
+    vertical-align: top;
+    outline: 0px solid rgb(158, 158, 158,0.5);
+    border-radius: 8px;
+    width: 325px;
+    height: 900px;
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+    margin: 20px;
+}
+label, input { 
+    display:block; 
+}
+input.text { 
+    margin-bottom:12px; 
+    width:95%; padding: .4em; 
+}
+fieldset { 
+    padding:0; 
+    border:0; 
+    margin-top:25px; 
+}
+div#users-contain { 
+    width: 350px; 
+    margin: 20px 0; 
+}
+div#users-contain table {
+     margin: 1em 0; 
+     border-collapse: collapse; 
+     width: 100%; 
+    }
+div#users-contain table td, div#users-contain table th {    
+    border: 1px solid #eee; 
+    padding: .6em 10px; 
+    text-align: left; 
+}
+.ui-dialog .ui-state-error { 
+    padding: .3em; 
+}
+.validateTips { 
+    border: 1px solid transparent; 
+    padding: 0.3em; 
+}
+
+div#dialog-form select, div#dialog-form label{
+    display: inline-block;
+    width: 150px;
+}
+

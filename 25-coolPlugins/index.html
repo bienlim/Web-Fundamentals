@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>jQuery so cool</title>
+  <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+  <script type="text/javascript" src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+  <script src="script.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="head">KINI KANBAN <button  id="newNote">New Note</button></h1>
+    
+    <div class="container-board">
+        <div id="dialog-form" title="Create new Note">
+        <form>
+              <fieldset>
+                <label for="name">Title</label>
+                <input type="text" name="noteTitle" id="noteTitle" class="text ui-widget-content ui-corner-all">
+                <label for="email">Text</label>
+                <input type="text" name="noteText" id="noteText" class="text ui-widget-content ui-corner-all">
+                <label for="noteTab">Tab</label>
+                <label for="noteColor">Color</label>
+                <select name="noteTab" id="noteTab">
+                    <option value="col_1">Ideas</option>
+                    <option value="col_2">To do</option>
+                    <option value="col_3">In Progress</option>
+                    <option value="col_4">Done</option>
+                </select> 
+                <select name="noteColor" id="noteColor">
+                    <label for="noteColor">Color</label>
+                    <option class="lightblue" value="lightblue">Blue</option>
+                    <option class="yellow" value="yellow">Yellow</option>
+                    <option class="lightpink"value="lightpink">Pink</option>
+                </select>   
+                <!-- Allow form submission with keyboard without duplicating the dialog button -->
+                <input type="submit" tabindex="-1" style="position:absolute; top:-1000px">
+              </fieldset>
+            </form>
+        </div>
+        <div class="board-column">
+
+            <div class="container-col" id="col_1">
+                <h4 id="col_1h">IDEAS</h4>
+            </div>
+            <div class="container-col" id="col_2">
+                <h4 id="col_2h">TO DO</h4>
+            </div>
+            <div class="container-col" id="col_3">
+                <h4 id="col_3h">IN PROGRESS</h4>
+            </div>
+            <div class="container-col" id="col_4">
+                <h4 id="col_4h">DONE</h4>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

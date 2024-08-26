@@ -1,0 +1,46 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+    margin: auto;
+    width: 970px;
+    height: 100%;
+
+}
+header{
+    margin: auto;
+}
+div.container{
+    background-color: rgba(232, 233, 232, 0.6);
+    width: 970px; 
+    height: 700px;
+}
+.col{
+    display: inline-block;
+    width: 200px;
+    height: 650px;
+    vertical-align: bottom;
+}
+.container img.block{
+    display: block;
+    width: 180px; 
+    height: 180px;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.container img.multicolor{
+    background-image: url("img/multicolor_candy.png");
+}
+.container img.orange{
+    background-image: url("img/orange_candy.png");
+}
+img.red{
+    background-image: url("img/red_candy.png");
+}
+.container img.yellow{
+    background-image: url("img/yellow_candy.png");
+}

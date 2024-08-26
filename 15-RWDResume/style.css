@@ -1,0 +1,335 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 1000px;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: linear-gradient(rgb(235, 235, 235), rgb(255, 255, 255), rgb(235, 235, 235));
+    outline: 0px solid blue;
+}
+
+
+header {
+    display: block;
+    outline: 0px solid blue;
+}
+    #me{
+        display: inline;
+        object-fit: cover;
+        object-position: 200% 0;
+    }
+    header div{
+        display: inline-block ;
+        outline: 0px solid blue;
+        text-align: center;
+    }
+        header h1{
+            font-size: 50px;
+        }
+        header h2{
+            font-size: 20px;
+            border-bottom: 1px solid rgb(0, 0, 0);
+                
+        }
+    #info{
+        display: inline-block;
+        width: 200px;  
+        vertical-align: top;
+        padding-top: 40px;
+    }
+section.mainPanel{
+    display: block;
+    width: 911px;
+    outline: 0px solid green;
+    padding: 5px 30px 15px 30px;
+    background-color: rgb(235, 235, 235);
+    text-align: justify;
+    margin-bottom: 20px;
+}
+    section.mainPanel h5{
+        text-align: center;
+        font-family: sans-serif;
+        font-size: 20px;
+        
+        
+    }
+    section.subPanel h5{
+        text-align: center;
+        font-family: sans-serif;
+        font-size: 20px; 
+        margin-top: 5px;
+    }
+    section.subPanel h6{
+        text-align: left;
+        font-size: 15px; 
+        margin-top: 1.5rem;
+    }
+    section div.techstack {
+        display: inline-block;
+        outline: 0px solid blue;
+        width: 420px;
+        padding: 10px 20px 20px 20px;
+        vertical-align: top;
+        text-align: center;
+        
+    }
+        div.techstack img{
+            width: 70px
+        }
+
+    section div.projects {
+
+        outline: 0px solid blue;
+        width: 440px;
+        padding: 10px 20px 20px 20px;
+        background-image: linear-gradient(rgb(235, 235, 235), rgb(255, 255, 255), rgb(235, 235, 235));
+        margin-left: 23px;
+    }
+
+    section div.projects p{
+        margin: 0px;
+        text-align: left;
+    }
+
+        
+footer{
+    outline: 0px solid blue;
+    margin: 0px auto;
+    text-align: center;
+    padding: 20px;
+}
+
+    footer img{
+        width: 20px
+    }
+@media only screen and (max-width: 480px){
+    body{
+        margin: auto;
+        width: 480px;
+        text-align: center;
+    }
+    header {
+        display: inline-block;
+        max-width: 480px;
+        padding: 25px;
+    }
+        #me{
+            display: inline-block;
+            width: 300px;
+            height: 200px;
+            object-fit: cover;
+
+        }
+        header div{
+            display:inline-block;
+            outline: 0px solid blue;
+            width: 100%;
+        }
+            header h1{
+                font-size: 50px;
+                padding: 1rem;
+            }
+            header h2{
+                padding: 1rem;
+                font-size: 20px;
+                
+            }
+            header p{
+                padding: 2rem;
+            }
+        #info{
+            display: inline-block;
+            width: 200px;  
+            vertical-align: top;
+            padding-top: 40px;
+        }
+    section.mainPanel{
+        display: block;
+        width: 90%;
+        margin: 0% 4%;
+        outline: 0px solid green;
+        padding: 5px 30px 15px 30px;
+        text-align: justify;
+    }
+section.subPanel{
+    margin: 25px;
+}
+        section div.techstack {
+            width: 470px;
+        }
+        section div.projects {
+            width: 470px;
+            padding: 10px 20px 20px 20px;
+        }
+        section div.projects p{
+            margin: 0px;
+        }
+
+        footer img{
+            width: 20px
+        } 
+}
+
+@media only screen and (min-width: 481px){
+    body{
+        margin: auto;
+        width: 970px;
+        text-align: center;
+        
+    }
+    header {
+        display: block;
+        max-width: 970px;
+        padding: 25px;
+    }
+        #me{
+            display: inline-block;
+            width: 340px auto;
+            height: 250px;
+            object-fit: cover;
+            object-position: 200% 0;
+
+        }   
+        header div{
+            display: inline-block;
+            outline: 0px solid blue;
+            width: 570px;
+            vertical-align: top;
+        }
+            header h1{
+                font-size: 50px;
+                padding: 1rem;
+            }
+            header h2{
+                padding: 1rem;
+                font-size: 20px;
+                
+            }
+            header p{
+                padding: 2rem;
+            }
+        #info{
+            display: inline-block;
+            width: 200px;  
+            vertical-align: top;
+            padding-top: 40px;
+        }
+    section.mainPanel{
+        display: block;
+        width: 90%;
+        outline: 0px solid green;
+        padding: 5px 30px 15px 30px;
+        text-align: justify;
+        margin-bottom: 20px;
+        margin: 25px;
+    }
+
+
+section.subPanel{
+    margin: 25px auto;
+
+}
+
+
+        section div.techstack {
+            display: block;
+            width: 470px auto;
+        }
+        section div.projects {
+            display: block;
+            width: 470px auto;
+            padding: 10px 20px 20px 20px;
+            margin-left: 23px;
+        }
+        section div.projects p{
+            margin: 0px;
+        }
+
+        footer img{
+            width: 20px
+        } 
+}
+
+@media only screen and  (min-width: 1024px){
+
+    body{
+        margin: auto;
+        width: 1024px;
+    }
+    header {
+        display: block;
+        height: 300px;
+        min-width: 1024px;
+        padding: 25px;
+    }
+        #me{
+            display: inline-block;
+            width: 340px;
+            height: 250px;
+            object-fit: cover;
+            object-position: 200% 0;
+        }
+        header div{
+            display: inline-block;
+            outline: 0px solid blue;
+            width: 600px;
+            vertical-align: top;
+        }
+            header h1{
+                font-size: 50px;
+                padding: 1rem;
+            }
+            header h2{
+                padding: 1rem;
+                font-size: 20px;
+            }
+            header p{
+                padding: 2rem;
+            }
+        #info{
+            display: inline-block;
+            width: 200px;  
+            vertical-align: top;
+            padding-top: 40px;
+        }
+    section.mainPanel{
+        display: block;
+        height: 250px;
+        width: 975px;
+        outline: 0px solid green;
+        padding: 5px 30px 15px 30px;
+        background-color: rgb(235, 235, 235);
+        text-align: justify;
+        margin-bottom: 20px;
+        margin: 25px;
+    }
+
+section.subPanel{
+    margin: 25px;
+}
+
+
+        section div.techstack {
+            display: inline-block;
+            width: 470px;
+        }
+        section div.projects {
+            display: inline-block;
+            width: 470px;
+            padding: 10px 20px 20px 20px;
+            margin-left: 23px;
+        }
+        section div.projects p{
+            margin: 0px;
+        }
+
+        footer img{
+            width: 20px
+        }
+    
+    
+}

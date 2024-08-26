@@ -1,0 +1,78 @@
+body{
+margin: auto;
+max-width: 1200px;
+}
+
+button{
+    background-color: rgb(255, 255, 255) !important;
+    display: absolute;
+    right: 0px;
+    text-align: center;
+    margin-left: 900px;
+}
+
+H3{
+    display: inline-block;
+    width: 170px;
+    margin: auto;
+    margin: 20px 45px;
+    text-align: center;
+    border-radius: 6px;
+
+
+}
+
+textarea{
+    width: 120px; 
+    height: 120px; 
+    margin:10px 10px 10px 10px; 
+}
+    input{
+        width: 140px; 
+        height: 20px;
+    }
+
+.container-board {
+    margin: auto;
+    width:1080px; 
+    height: 1000px; 
+    padding: 30px;
+
+}
+
+
+  .column {
+    width: 170px;
+    height: 800px;
+    display: inline-block;
+    padding-bottom: 100px;
+    vertical-align: top;
+    margin: 0px 35px;
+    outline: 1px solid black;
+    padding: 10px;
+    border-radius: 8px;
+  }
+  .portlet {
+    margin: 0 1em 1em 0;
+    padding: 0.3em;
+
+  }
+  .portlet-header {
+    padding: 0.2em 0.3em;
+    margin-bottom: 0.5em;
+    position: relative;
+  }
+  .portlet-toggle {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    margin-top: -8px;
+  }
+  .portlet-content {
+    padding: 0.4em;
+  }
+  .portlet-placeholder {
+    border: 1px dotted black;
+    margin: 0 1em 1em 0;
+    height: 50px;
+  }

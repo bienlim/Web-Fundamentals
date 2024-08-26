@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="process.php" method="post">
+        <h1>Pizza Order Form</h1>
+        <p>
+                <label>
+                    First Name:  <input type="text" name="firstName" />
+            </label>
+        </p>
+        <p> 
+            <label>
+                Last Name:  <input type="text" name="lastName" />
+            </label>
+        </p>
+        <p> 
+            <label>
+                Email Address:  <input type="text" name="email" />
+            </label> 
+        </p>
+        <p>
+            <label>
+                Contact Number:  <input type="tel" name="contact" />
+            </label>
+        </p> 
+        <p>
+            <label>
+                Preffered Delivery Date:  <input type="date" name="dateDelivery" />
+            </label>          
+        </p>
+        <p>Size</p>
+        <p>   
+            <label>
+                    <input type="radio" name="answer" value="s" />Small
+            </label>
+        </p>
+        <p>
+            <label>
+                <input type="radio" name="answer" value="m" />Medium
+            </label>
+        </p>
+
+        <label>
+            <input type="radio" name="answer" value="l" />Large
+        </label>
+    
+        <p>Flavor:</p>
+        <p>
+            <label>
+                <input type="checkbox"  name="flavor" value="hawaiian"  /> Hawaiian (Php 150.00)
+            </label>
+        
+            <input type="number" name="countHawaiian" /> 
+        </p>
+            <label>
+            <input type="checkbox"  name="flavor" value="pepperoni"  /> Pepperoni (Php 140.00)
+        </label>
+        <input type="number" name="countPepperoni" /> 
+        <label>
+            <input type="checkbox"  name="flavor" value="vegetable"  /> Vegetable (Php 130.00)
+        </label>
+        <input type="number" name="countVegetable" />  
+
+        <p>Mode of Payment 
+            <select name="payment">
+                <option value="cod">Cash on Delivery</option>
+                <option value="card">Credit Card</option>
+            </select>
+        </p>
+         
+
+        <label>
+            Credit Card Number:  <input type="number" name="ccNum" />
+         </label>  
+
+         <label>
+            PIN:  <input type="password" name="password" />
+         </label>   
+        
+        <label>
+            Additional Note:   <textarea name="addNotes">Type here long texts...</textarea>
+        </label> 
+
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>

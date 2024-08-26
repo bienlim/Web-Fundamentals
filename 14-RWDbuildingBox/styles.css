@@ -1,0 +1,142 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+div.logo{
+
+    background-color: #B97A57;
+    display: inline-block;
+    
+}
+.wrapper{
+    background-color: #FFD9B7;
+    margin: 0px auto;
+    
+
+}
+.navigation{
+
+    background-color: #FF7F27;
+    display: inline-block;
+}
+div.main_content{
+    background-color: #880015;
+    padding: 10px;
+    display: block;
+
+}
+    div.about{
+
+        background-color: #FFAEC9;
+        display: inline-block;
+        margin: 10px;
+        margin-left: 30px;
+    }
+    div.advertisement{
+        background-color: #C8BFE7;
+        display: inline-block;
+        vertical-align: top;
+        margin: 10px;
+        margin-left: 30px;
+        
+        
+    }
+.sponsors{
+    background-color: #FFFF88;
+    display: inline-block;
+    margin-right: 1%;
+}
+
+@media only screen and (max-width: 480px){
+    .logo-4{
+        min-height: 130px;
+        width: 100%;
+    }
+    .wrapper-4{
+        width: 940px;
+    }
+    .navigation-4{
+        min-height: 130px;
+        width: 100%;
+    }
+    .main_content-4{ 
+        min-height: 250px;
+        width: 100%;
+        padding: 5%;
+    }
+    .about-4{
+        min-height: 250px;
+        width: 90%;
+    }
+    
+    .sponsors-4{
+        min-height: 65px;
+        width: 100%;
+    }
+
+}
+@media only screen and (min-width: 481px){
+    .logo-2{
+        min-height: 130px;
+        margin-right: 1%;
+        width: 24%;
+    }
+    .wrapper-2{
+        max-width: 1023px;
+        width: 100%;
+    }
+    .navigation-2{
+        float: right;
+        min-height: 130px;
+        width: 74%;
+    }
+    .main_content-2{ 
+        min-height: 250px;
+        width: 100%;
+        padding: 5%;
+    }
+    .about-2{
+        min-height: 250px;
+        width: 90%;
+    }
+    .sponsors-2{
+        min-height: 65px;
+        width: 48%;
+    }
+}
+@media only screen and  (min-width: 1024px){
+    .logo-1{
+        min-height: 130px;
+        width: 24%;
+        margin-right: 2%;
+    }
+    .wrapper-1{
+        max-width: 1023px;
+        width: 100%;
+        padding: 2%;
+
+    }
+    .navigation-1{
+        float: right;
+        min-height: 130px;
+        width: 74%;
+    }
+    .main_content-1{ 
+        min-height: 250px;
+        width: 100%;
+        margin-bottom: 5px;
+    }
+    .about-1{
+        min-height: 250px;
+        width: 70%;
+    }
+    .advertisement-1{
+        height: 200px;
+        width: 20%;
+    }
+    .sponsors-1{
+        min-height: 65px;
+        width: 32%;
+    }
+}

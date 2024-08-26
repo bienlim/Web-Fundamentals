@@ -1,0 +1,46 @@
+body{
+    height: 1000px;
+    width: 970px;
+    outline: 0px solid black;
+    margin: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+div.leftPanel{
+    display: inline-block;
+    height: 1000px;
+    width: 170px;
+    outline: 0px solid blue;
+    background-color: rgb(230, 230, 230);
+    padding: 15px;
+    vertical-align: top;
+}
+
+    div.leftPanel h4{
+        color: gray;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: medium;
+    }
+
+    div.leftPanel p{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: small;
+    }
+div.mainPanel{
+    display: inline-block;
+    height: 1000px;
+    width: 700px;
+    outline: 0px solid green;
+    padding: 15px;
+    padding-left: 30px;
+}
+
+div.mainPanel div{
+    padding: 20px;
+    outline: 1px solid rgb(180, 180, 180);
+}
+
+a{
+    text-decoration: none;
+}

@@ -1,0 +1,134 @@
+@primaryFont: Verdana, Geneva, Tahoma, sans-serif;
+@secondaryFont: sans-serif;
+@secondaryFontSize: 20px;
+@colorGradient: linear-gradient(rgb(235, 235, 235), rgb(255, 255, 255), rgb(235, 235, 235));
+
+
+body{
+    height: 1000px;
+    width: 970px;
+    outline: 0px solid black;
+    margin: auto;
+    font-family: @primaryFont;
+    background-image: @colorGradient;
+
+    header {
+        display: block;
+        height: 250px;
+        width: 970px;
+        outline: 0px solid blue;
+        padding: 15px;
+        text-align: left;
+        
+        #me{
+            display: inline-block;
+            width: 350px;
+            height: 250px;
+            object-fit: cover;
+            object-position: 200% 0;
+        }
+
+        div{
+            display: inline-block;
+            outline: 0px solid blue;
+            width: 600px;
+            vertical-align: top;
+            margin-left: 10px;
+        }
+        
+        h4{
+                font-size: 50px;
+                margin: 20px 0px 0px 0px;
+            }
+        
+        h3{
+                padding: 0px ;
+                font-size: @secondaryFontSize;
+                
+            }
+
+        #info{
+            display: inline-block;
+            width: 200px;  
+            vertical-align: top;
+            padding-top: 40px;
+        }
+    }
+
+
+        section.mainPanel{
+
+                    display: block;
+                    height: 250px;
+                    width: 911px;
+                    outline: 0px solid green;
+                    padding: 5px 30px 15px 30px;
+                    background-color: rgb(235, 235, 235);
+                    text-align: justify;
+                    margin-bottom: 20px;
+                    
+                    h5{
+                        text-align: center;
+                        font-family: @secondaryFont;
+                        font-size: @secondaryFontSize;
+                    }
+                
+                }
+
+        section.subPanel{ 
+                    
+                    h5{
+                        text-align: center;
+                        font-family: @secondaryFont;
+                        font-size: @secondaryFontSize; 
+                        margin: 5px 0px 30px 0px;
+                    }
+                    .subPanel h6{
+                        
+                        font-size: 15px; 
+                        margin: 0px;
+                    }
+                
+                div.techstack {
+                    display: inline-block;
+                    outline: 0px solid blue;
+                    width: 420px;
+                    padding: 10px 20px 20px 20px;
+                    vertical-align: top;
+                    text-align: center;
+
+                    img{
+                        width: 70px
+                    }
+                }
+        }
+
+
+            
+
+
+        section div.projects {
+            display: inline-block;
+            outline: 0px solid blue;
+            width: 440px;
+            padding: 10px 20px 20px 20px;
+            background-image: @colorGradient;
+            margin-left: 23px;
+        }
+        section div.projects p{
+            margin: 0px;
+        }
+
+            
+    footer{
+        outline: 0px solid blue;
+        margin: 0px auto;
+        text-align: center;
+        padding: 20px;
+        img{
+            width: 20px
+        }
+    }
+
+}
+    

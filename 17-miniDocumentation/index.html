@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <title>Document</title>
+
+</head>
+<body class="container">
+
+    <div class="col-4">
+        <h1 id="headingOne">
+            Effects
+        </h1>
+            <a href="#hide">.hide()</a> 
+            <a href="#show">.show()</a> 
+            <a href="#toggle">.toggle()</a> 
+            <a href="#slideUp">.slideUp()</a> 
+            <a href="#slideDown">.slideDown()</a> 
+            <a href="#slideToggle">.slideToggle()</a> 
+            <a href="#fadeOut">.fadeOut()</a> 
+            <a href="#fadeIn">.fadeIn()</a> 
+        <h1 id="headingTwo">
+            CSS
+        </h1>
+            <a href="#addClass">.addClass()</a>
+            <a href="#removeClass">.removeClass()</a>
+            <a href="#css">.css()</a>
+        <h1 id="headingThree">
+                    Manipulation
+        </h1>
+            <a href="#after">.after()</a>
+            <a href="#append">.append()</a>
+            <a href="#prepend">.prepend()</a>
+            <a href="#attr">.attr()</a>
+            <a href="#before">.before()</a>
+            <a href="#html">.html()</a>
+            <a href="#text">.text()</a>
+            <a href="#val">.val()</a>
+        <h1 id="headingFour">
+            Events
+        </h1>
+            <a href="#click">.click()</a>
+            <a href="#on">.on()</a>
+            <a href="#hover">.hover()</a>
+    </div>
+            
+        <div class="col-8">
+            <h1>JQuery: Mini Documentation</h1>
+            <h2>Effects</h2>
+            <div id="hide" class="row">
+                <p>There is a element here that is hidden by .hide()</p>
+                <button class="btn btn-primary" id="hideNow">.hide()</button><p id="hideThis">Hide This</p>
+            </div>
+            <div id="show" class="row"> 
+                <p>There is a element here that is show by .show()</p>
+                <button class="btn btn-primary" id="showNow">.show()</button><p id="showThis">Show This</p>
+            </div>
+            <div id="toggle" class="row">
+                <p>Note: The toggle() method was deprecated in jQuery version 1.8, and removed in version 1.9.</p>
+                <button class="btn btn-primary" id="toggleNow">.toggle()</button><p id="toggleThis">Toggle This</p>
+            </div>
+            <div id="slideUp" class="row">
+                <p>Slide an element up.</p>
+                <button class="btn btn-primary" id="slideUpNow">.slideUp()</button><p id="slideUpThis">Slide Up This</p>
+            </div>
+            <div id="slideDown" class="row">
+                <p>Slide an element down</p>
+                <button class="btn btn-primary" id="slideDownNow">.slideDown()</button><p id="slideDownThis">Slide Up This</p>
+            </div>
+            <div id="slideToggle" class="row">
+                <p>Slide toggle an element either Up or Down</p>
+                <button class="btn btn-primary" id="slideToggleNow">.slideToggle()</button><p id="slideToggleThis">Slide Toggle This</p>
+            </div>
+            <div id="fadeOut" class="row">
+                <p>Fade out an element</p>
+                <button class="btn btn-primary" id="fadeOutNow">.fadeOut()</button><p id="fadeOutThis">Fade Out This</p>
+            </div>
+            <div id="fadeIn" class="row">
+                <p>Fade In an element.</p>
+                <button class="btn btn-primary" id="fadeInNow">.fadeIn()</button><p id="fadeInThis">Fade In This</p>
+            </div>
+            <h2>CSS</h2>
+            <div id="addClass" class="row">
+                <p>Add a class to an element.</p>
+                <button class="btn btn-primary" id="addClassNow">.addClass()</button><p id="addClassThis">Add Class This</p>
+            </div>
+            <div id="removeClass" class="row">
+                <p>Remove a class from an element</p>
+                <button class="btn btn-primary" id="removeClassNow">.removeClass()</button><p id="removeClassThis" class="text-decoration-line-through">Add Class This</p>
+            </div>
+            <div id="css" class="row">
+                <p>Used to get/return the present value of the property for the selected element.</p>
+                <button class="btn btn-primary" id="cssNow">.css()</button><p id="cssThis">.css() This</p>
+            </div>
+            <h2>Manipulation</h2>
+            <div id="after" class="row">
+                <p>Used to insert content after, specified by the parameter for each selected element in the set of matched elements. </p>
+                <button class="btn btn-primary" id="afterNow">.after()</button><p id="afterThis">After This</p>
+            </div>
+            <div id="append" class="row">
+                <p>The append() method inserts specified content at the end of the selected elements.</p>
+                <button class="btn btn-primary" id="appendNow">.append()</button><p id="appendThis">Append This</p>
+            </div>
+            <div id="prepend" class="row">
+                <p>The Prepend() method inserts specified content at the start of the selected elements.</p>
+                <button class="btn btn-primary" id="prependNow">.prepend()</button><p id="prependThis">Prepend This</p>
+            </div>
+            <div id="attr" class="row">
+                <p>The attr() method sets or returns attributes and values of the selected elements.</p>
+                <button class="btn btn-primary" id="attrNow">.attr()</button><img src="https://media.geeksforgeeks.org/wp-content/uploads/20190221153831/1132.png" width="16" height="16">
+            </div>
+            <div id="before" class="row">
+                <p>The before() method inserts specified content in front of (before) the selected elements.</p>
+                <button class="btn btn-primary" id="beforeNow">.before()</button><p id="beforeThis">Before This</p>
+            </div>
+            <div id="html" class="row">
+                <p>The html() method sets or returns the content (innerHTML) of the selected elements.()</p>
+                <button class="btn btn-primary" id="htmlNow">.html()</button><p id="htmlThis">html This</p>
+            </div>
+            <div id="text" class="row">
+                <p>The text() method sets or returns the text content of the selected elements.</p>
+                <button class="btn btn-primary" id="textNow">.prepend()</button><p id="textThis">text This</p>
+            </div>
+            <div id="val" class="row">
+                <p>The text() method sets or returns the text content of the selected elements.</p>
+                <button class="btn btn-primary" id="valNow">.val()</button><input type="text" name="user">
+            </div>
+            <h2>Events</h2>
+            <div id="click" class="row">
+                <p>The click event occurs when an element is clicked.</p>
+                <button class="btn btn-primary" id="clickNow">.click()</button><p id="clickThis">You have been using the click() for each example as trigger</p>
+            </div>
+            
+            <div id="on" class="row">
+                <p>The on() method attaches one or more event handlers for the selected elements and child elements.</p>
+                <button class="btn btn-primary" id="onNow">.on()</button><p id="onThis">You can click ON me!!</p>
+            </div>
+            <div id="hover" class="row">
+                <p>The on() method attaches one or more event handlers for the selected elements and child elements.</p>
+                <button class="btn btn-primary" id="hoverNow">.hover()</button><p id="hoverNow">You can hover here</p>
+            </div>
+
+    </div>   
+    <script>
+        $("#hideNow").click(function(){
+            $("#hideThis").hide()
+        })
+
+        $("#showThis").hide()
+        $("#showNow").click(function(){
+            $("#showThis").show()
+        })
+
+        $("#toggleNow").click(function(){
+            $("#toggleThis").toggle();
+        })
+        
+        $("#slideUpNow").click(function(){
+            $("#slideUpThis").slideUp();
+        });
+
+        $("#slideDownThis").slideUp();
+        $("#slideDownNow").click(function(){
+            $("#slideDownThis").slideDown();
+        });
+
+        $("#slideToggleNow").click(function(){
+            $("#slideToggleThis").slideToggle();
+        });
+
+        $("#fadeOutNow").click(function(){
+            $("#fadeOutThis").fadeOut();
+        });
+
+        $("#fadeInThis").fadeOut();
+        $("#fadeInNow").click(function(){
+            $("#fadeInThis").fadeIn();
+        });
+
+        $("#addClassNow").click(function(){
+            $("#addClassThis").addClass("text-decoration-line-through");
+        });
+
+        $("#removeClassNow").click(function(){
+            $("#removeClassThis").removeClass("text-decoration-line-through");
+        });
+
+        $("#cssNow").click(function(){
+            $("#cssThis").css("background-color", "yellow");
+        });
+
+        $("#afterNow").click(function(){
+            $("p#afterThis").after("<p>Hello I'm After</p>");
+        });
+
+        $("#appendNow").click(function(){
+            $("p#appendThis").append(" Hello I'm Append");
+        });
+
+        $("#prependNow").click(function(){
+            $("p#prependThis").prepend("Hello I'm Prepend ");
+        });
+
+        $("#attrNow").click(function(){
+            alert("Image width: " +
+                        $("img").attr("width"));
+        });
+
+        $("#beforeNow").click(function(){
+            $("p#beforeThis").before("<p>Hello I'm Before</p>");
+        });
+
+        $("#htmlNow").click(function(){
+            $("p#htmlThis").html("Hello Im form .html()");
+        });
+
+        $("#textNow").click(function(){
+            alert("The text is: " +
+                        $("p#textThis").text());
+        });
+        
+        $("#valNow").click(function(){
+            $("input:text").val("Im the val()");
+        });
+
+        $("#clickNow").click(function(){
+            alert("Click!!");
+        });
+
+        $("p#onThis").on("click", function(){
+            alert("The paragraph was clicked.");
+        });
+        $("p#hoverNow").hover(function(){
+            $(this).css("background-color", "yellow");
+            }, function(){
+            $(this).css("background-color", "white");
+        });
+    </script>
+    <style>
+        *{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body{
+            max-width: 1200px;
+            margin: auto;
+        }    
+        div.col-4{
+            background-color: aliceblue;
+            position: fixed;
+            width: 25%;
+            max-width: 300px;
+            border:  1px solid blue;
+            border-radius: 8px;
+            padding: 12px;
+
+        }
+            h1{
+                background-color: white;
+                border: 0px solid blue;
+                border-radius: 8px;
+                padding: 5px;
+
+            }
+            .col-4 a{
+                display: block;
+                line-height: 2rem;
+            }
+
+        div.col-8{
+            background-color: aliceblue;
+            position: relative;
+            left: 32%;
+            max-width: 800px;
+            border:  1px solid blue;
+            border-radius: 8px;
+            padding: 12px;
+        }
+        div.col-8 div{
+            background-color: white;
+            border: 0px solid blue;
+            border-radius: 8px;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+        div.col-8 div button{
+            width: 200px auto;
+        }
+
+    </style>
+</body>
+</html>
+
+

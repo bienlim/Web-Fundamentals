@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendar</title>
+    <style>
+        div.container{
+          
+            min-height: 500px;
+            min-width: 1000px;
+            margin: 0px auto;
+            padding: 15px;
+        }
+            div.nav{              
+                margin: 8px;
+            }
+                div.subcalendar{
+                    height: 100px;
+                    width: 200px;
+                    display: inline-block;
+                    vertical-align: middle;
+                    
+                }
+                    div.subcalendar img{
+                        width: 200px;
+                    }
+                div.month{
+                    
+                    min-height: 100px;
+                    width: 570px;
+                    padding-top: 30px;
+                    display: inline-block;
+                    margin: 0px auto;
+                    vertical-align: middle;
+                    text-align: center;
+                    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                    
+                }
+        
+        div.date{
+            outline: 1px solid black;
+            height: 30px;
+            width: 123px;
+            display: inline-block;
+            margin: 8px;
+            text-align: center;
+            padding-top: 12px;
+            vertical-align: middle;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-weight: bold;
+        }
+ 
+        .nodate{
+            height: 30px;
+            width: 123px;
+            display: inline-block;
+            margin: 8px;
+            text-align: center;
+            vertical-align: middle;
+            padding-top: 12px;
+            outline: 0px;
+            background-color: rgb(219, 219, 219) ;
+        }
+        .sun{
+            background-color: rgb(159, 85, 228) ;
+        }
+        .sat{
+            background-color: rgb(0, 199, 0);
+        }
+    </style>
+    
+</head>
+<body>
+    <div class="container">
+            <div class="nav">
+                <div class="subcalendar">
+                    <img src="june2021.png" alt="june2021.png">
+                </div>
+                <div class="month">
+                    <h1><strong>JULY 2021</strong></h1>
+                </div>
+                <div class="subcalendar">
+                    <img src="aug2021.png" alt="aug2021.png">
+                </div>
+            </div>
+            <div class="calendar">
+                <div class="row">
+                    <div class="date sun">Sun</div>
+                    <div class="date"> Mon</div>
+                    <div class="date"> Tue</div>
+                    <div class="date"> Wed</div>
+                    <div class="date"> Thu</div>
+                    <div class="date"> Fri</div>
+                    <div class="date sat">Sat</div>
+                </div>
+                <div class="row">
+                    <div class="nodate"></div>
+                    <div class="nodate"></div>
+                    <div class="nodate"></div>
+                    <div class="nodate"></div>
+                    <div class="date">1</div>
+                    <div class="date">2</div>
+                    <div class="date sat">3</div>
+                </div>
+                <div class="row">
+                    <div class="date sun">4</div>
+                    <div class="date">5</div>
+                    <div class="date">6</div>
+                    <div class="date">7</div>
+                    <div class="date">8</div>
+                    <div class="date">9</div>
+                    <div class="date sat">10</div>
+                </div>
+                <div class="row">
+                    <div class="date sun">11</div>
+                    <div class="date">12</div>
+                    <div class="date">13</div>
+                    <div class="date">14</div>
+                    <div class="date">15</div>
+                    <div class="date">16</div>
+                    <div class="date sat">17</div>
+                </div>
+                <div class="row">
+                    <div class="date sun">18</div>
+                    <div class="date">19</div>
+                    <div class="date">20</div>
+                    <div class="date">21</div>
+                    <div class="date">22</div>
+                    <div class="date">23</div>
+                    <div class="date sat">24</div>
+                </div>
+                <div class="row">
+                    <div class="date sun">25</div>
+                    <div class="date">26</div>
+                    <div class="date">27</div>
+                    <div class="date">28</div>
+                    <div class="date">29</div>
+                    <div class="date">30</div>
+                    <div class="date sat">31</div>
+                </div>
+            </div>
+
+    </div>
+    
+</body>
+</html>

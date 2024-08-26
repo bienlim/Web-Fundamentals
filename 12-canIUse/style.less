@@ -1,0 +1,146 @@
+    
+*{
+    padding: 0px;
+    margin: 0px auto;
+    box-sizing: border-box;
+    outline: 0px dotted red;
+    color: white;
+    text-decoration: none;
+    font: 16px "Open Sans", Helvetica, Arial, sans-serif;
+}
+body{
+    background-image: repeating-linear-gradient( 90deg, rgb(64,56,40)0 15px, rgb(68, 60, 44) 15px 16px);
+    nav{
+        display: block;
+        width: 970px;
+        margin-bottom: 10px;
+        a.btn-header{
+            font-size: 20px;
+            display: inline-block;
+            height: 50px;
+            background-color: rgba(83, 76, 63, 0.562);
+            padding: 15px;
+            font-weight: 100;
+            margin-right: 5px;
+        }
+        a.right{
+            float: right;
+            margin-right: 0px;
+            margin-left: 5px;
+        }
+    }
+    header{
+        background-color: #C84F00;
+        display: block;
+        width: 970px;
+        height: 80px;
+        padding-left:  200px;
+        margin-bottom: 15px;
+
+        h1{
+            display: inline;
+            text-align: center;
+            font-size: 28px;
+            line-height: 80px;
+        }
+        h1.underline{
+            padding: 0 10rem;
+            border-bottom: 1px white solid;
+        }
+    }
+    section{
+        background-color: rgb(242,232,213);
+        display: block;
+        width: 970px;
+        height: 500px;
+        div.numSign{
+            position: relative;
+            display: inline-block;
+            vertical-align: top;
+            width: 40px;
+            height: 40px;
+            left: -544px;
+            padding: 5px 0px 5px 12px;
+            top: 20px;
+            background-color: rgb(199,80,0); 
+            a{
+                font-size: 28px;
+            }
+        }
+        div.description{
+            padding: 15px;
+            display: inline-block;
+            width: 500px;
+            margin-bottom: 30px;
+
+            h2{
+                font-size: 28px;
+                color: black;
+                margin-bottom: 20px;
+            }
+            p{
+                color: black;
+                line-height: 20px;
+            }
+        }
+        div.infograph{
+
+            padding: 15px;
+            div.row{
+                height: 32px;
+
+                display: block;
+                margin-bottom: 5px;
+                a{
+                    width: 80px;
+                    height: 32px;
+                    text-align: center;
+                    display: inline-block;
+                    vertical-align: top;
+                    line-height: 32px;
+                    p{
+                        position: relative;
+                        top: -31px;
+                        left: -34px;
+                        width: fit-content;
+                        background-color: white;
+                        outline: 1px solid black;
+                        color: black;
+                        font-size: 10px;
+                        padding: 0px 2px;
+                    }
+                    p.two{
+                        position: relative;
+                        top: -31px;
+                        left: -30px;
+                    }
+                }
+                a.sup{
+                    background-color: rgb(42,132,54);
+                }
+                a.notsup{
+                    background-color: rgb(128,0,0);
+                }
+                a.parsup{
+                    background-color: rgb(147,111,20);
+                }
+                a.unknown{
+                    background-color: rgb(234,225,206);
+                }
+            }
+            div.thead{
+                height: 60px;
+                a{  
+                    height: 60px;
+                    color: black;
+                    vertical-align: top;
+                    border-bottom: 4px solid black;
+                    padding: 2px;
+                    line-height: 16px;
+                    display: table-cell; 
+                    vertical-align: middle;
+                }
+            }
+        }
+    }
+}

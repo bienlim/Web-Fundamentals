@@ -1,0 +1,165 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    margin: 0px auto;
+    width: 970px;
+    background-color: rgba(47,47,47,255);
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    font-size: 12px;
+}
+    header {
+        height: 45px;
+        background-color: rgb(37, 150, 190);
+        
+        font-size: 14px;
+        padding-top: 10px;
+        padding: 10px 0px 0px 50px;
+    }
+    
+
+        header ul{
+            display: inline-block;
+        }
+            header ul li{
+                color: white;
+                display: inline-block;
+                vertical-align: top;
+                margin: 0px 10px;
+            }
+            header img#php{
+                width: 2.5rem;
+                display: inline-block;
+                vertical-align:center;
+            }
+            header img#php8{
+                width: 3rem;
+                display: inline-block;
+                vertical-align: center;
+            }
+        header input{
+            display: inline-block;
+            margin-left: 260px;
+            vertical-align: center;
+            color: lightgray;
+        }
+
+
+
+     section.content{
+            height: 500px;
+        }
+
+            .main{
+                display: inline-block;
+                width: 700px;
+                margin-left: 50px;
+            }
+                .mainTrail{
+                    display: block;
+                    
+                    font-size: 10px;
+                    margin: 9px 13px;
+                    color: gray;
+                }
+
+                .mainContent{
+                    display: block;
+                    background-color:rgba(242,242,242,255);
+                    padding: 15px;
+                }
+
+                     .mainContent .subMenu{
+                        display: block;
+                        font-size: 12px;
+                        color: gray;
+                        text-align: right;
+                        
+                        padding-left: 450px;
+                        height: 25px;
+                    }
+                        p.subMenu select{
+                            display: inline-block;
+                            width:100px;
+                            font-size: 10px;
+                        }
+                        p.subMenu a{
+                            display: inline-block;
+                            text-decoration: none;
+                            margin: 0px 5px;
+                            font-size: 10px;
+                            
+                        }
+                section.content div.mainContent h4{
+                    font-size: 22px;
+                    padding: 10px 0px;
+                }
+                section.content div.mainContent h5{
+                    font-size: 18px;
+                    padding: 10px 0px;
+                }
+                section.content div.mainContent ul{
+                    font-size: 13px;
+                    padding: 10px 20px;
+                    line-height: 18px;
+                    margin-bottom: 10px;
+                }
+                section.content div.mainContent p{
+                    margin-bottom: 10px;
+                }
+                section.content div.mainContent h6{
+                    font-size: 18px;
+                    padding: 10px 0px;
+                    width: 680px;
+                }
+                    section.content div.mainContent h6 a{
+                        font-size: 10px;
+                        text-align: right;
+                        margin-left:450px;
+                    }
+            nav{
+                display: inline-block;
+                width: 200px;
+                vertical-align: top;
+                color: gray;
+                padding: 5px;
+            }
+                .navBar p{
+                    font-size: 10px;
+                    display: inline-block;
+                    margin: 5px 8px;
+                }
+                .navDir h4{
+                    font-size: 13px;
+                    padding: 6px 10px;
+                    border-bottom: 1px dotted gray;
+                }
+                .navDir h5{
+                    font-size: 12px;
+                    padding: 6px 17px;
+                    border-bottom: 1px dotted gray;
+                }
+                .navDir h6{
+                    font-size: 11px;
+                    font-weight:bold;
+                    padding: 6px 17px;
+                    border-bottom: 1px dotted gray;
+                }
+                
+
+    footer{
+        color: white;
+        vertical-align: top;
+        padding: 0px 80px;
+        text-decoration: none;
+    }
+        
+        footer ul li{
+            color: gray;
+            display: inline-block;
+            vertical-align: top;
+            margin: 0px 8px;
+        }
